@@ -42,6 +42,12 @@ console.log(d);
 // Arrays
 let myArray = [];
 let Array2 = [1, 2, 3];
+Array2.push(4);
+console.log('eee', Array2);
+Array2.unshift(0);
+console.log('uy', Array2);
+//encontrar el indice de un elemento
+console.log(Array2.indexOf(2));
 // objects
 let p = {x: 2.3, y: 4.5}; // An object with 2 propierties
 let q = {};
@@ -60,7 +66,12 @@ console.log(rectangle["upperleft"])
 
 // functions
 let square = function(x) {
-    return Math.pow(x,2)
+    let calc = Math.pow(x,2);
+    return calc;
+
 }
+//console.log(calc);
+
 let z = square(5);
+
 console.log(z);
