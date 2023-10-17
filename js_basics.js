@@ -75,3 +75,9 @@ let square = function(x) {
 let z = square(5);
 
 console.log(z);
+
+function var1(){
+    console.log("mi function")
+}
+
+var1();

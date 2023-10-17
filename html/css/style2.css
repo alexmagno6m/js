@@ -1,0 +1,22 @@
+body {
+    background-color: darkcyan;
+}
+
+table {
+    background-color: aquamarine;
+}
+
+th {
+    background-color: aqua;
+    border: 1px solid #000;
+}
+
+td {
+    background-color: bisque;
+    border: 1px solid #000;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
