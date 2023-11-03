@@ -96,3 +96,16 @@ console.log(g1(2))
 
 let p1 = {x: 10, g1}
 console.log(p1.g1(2))
+// bind arrow functions
+
+let sum = (x, y) => x + y
+// bound arg to one value
+let succ = sum.bind(null, 1)
+console.log(succ(2))
+//x is limited to 1, any y is passes as 2 => 3
+function f(y, z) {
+    return this.x + y + z
+}
+let g2 = f.bind({x:1}, 2)
+console.log(g2(3))
+// x is limited to 1, y is limited to 2 and z = 3 => 6
