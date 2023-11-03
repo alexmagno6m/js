@@ -81,3 +81,6 @@ function var1(){
 }
 
 var1();
+
+let tiempo = new Date().toISOString()
+console.log(tiempo)
