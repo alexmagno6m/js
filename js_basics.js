@@ -84,3 +84,15 @@ var1();
 
 let tiempo = new Date().toISOString()
 console.log(tiempo)
+// bind method "this"
+function f(y) {
+    return this.x + y
+}
+// 'this' is neccesary for bind f function after
+let o = {x: 1}
+
+let g1 = f.bind(o)
+console.log(g1(2))
+
+let p1 = {x: 10, g1}
+console.log(p1.g1(2))
