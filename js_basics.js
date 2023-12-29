@@ -116,3 +116,4 @@ console.log(g2(3))
 // ading from macmini
 // adding new changes
 //ading new line
+//adinng other line
