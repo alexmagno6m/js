@@ -9,7 +9,9 @@ let ms = now.getTime();
 console.log(ms);
 // iso format
 let iso = now.toISOString();
+let iso2 = now.toDateString();
 console.log(iso);
+console.log(iso2);
 
 // strings
 let msg = "hello, world"
