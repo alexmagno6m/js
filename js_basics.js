@@ -113,3 +113,5 @@ console.log(g2(3))
 // x is limited to 1, y is limited to 2 and z = 3 => 6
 
 //setting new features from mac mini
+// ading from macmini
+// adding new changes
